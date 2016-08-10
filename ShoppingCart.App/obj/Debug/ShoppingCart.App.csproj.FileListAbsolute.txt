@@ -1,0 +1,6 @@
+F:\Experiments\ShoppingCart\ShoppingCart.App\bin\Debug\ShoppingCart.App.exe.config
+F:\Experiments\ShoppingCart\ShoppingCart.App\bin\Debug\ShoppingCart.App.exe
+F:\Experiments\ShoppingCart\ShoppingCart.App\bin\Debug\ShoppingCart.App.pdb
+F:\Experiments\ShoppingCart\ShoppingCart.App\obj\Debug\ShoppingCart.App.csprojResolveAssemblyReference.cache
+F:\Experiments\ShoppingCart\ShoppingCart.App\obj\Debug\ShoppingCart.App.exe
+F:\Experiments\ShoppingCart\ShoppingCart.App\obj\Debug\ShoppingCart.App.pdb
