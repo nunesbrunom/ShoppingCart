@@ -1,4 +1,5 @@
-﻿using ShoppingCart.App.Models;
+﻿using ShoppingCart.App.Helpers;
+using ShoppingCart.App.Models;
 using System.Diagnostics;
 using System.Linq;
 
@@ -24,13 +25,13 @@ namespace ShoppingCart.App.Processors
 
         protected void PrintItemInfo(IBasketItem item)
         {
-           Trace.WriteLine(item.PrintInfo());
+           PrintHelpers.WriteLine(item.PrintInfo());
         }
 
         
         protected void PrintTerminator()
         {
-           Trace.WriteLine("-------");
+           PrintHelpers.WriteLine("-------");
         }
 
         

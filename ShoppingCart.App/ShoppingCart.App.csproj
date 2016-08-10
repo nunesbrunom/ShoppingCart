@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\OutputHelper.cs" />
     <Compile Include="Helpers\PrintHelpers.cs" />
     <Compile Include="Managers\BasketManager.cs" />
     <Compile Include="Managers\StoreManager.cs" />

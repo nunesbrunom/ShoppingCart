@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ShoppingCart.App.Models;
 using System.Diagnostics;
+using ShoppingCart.App.Helpers;
 
 namespace ShoppingCart.App.Processors
 {
@@ -39,14 +40,14 @@ namespace ShoppingCart.App.Processors
             }
 
             PrintTerminator();
-            Trace.WriteLine($"Total: £{basket.Total}");
+            PrintHelpers.WriteLine($"Total: £{basket.Total}");
 
             if (basket.Messages.Any())
             {
                 PrintTerminator();
                 foreach (var item in basket.Messages)
                 {
-                   Trace.WriteLine($"Message: {item}");
+                   PrintHelpers.WriteLine($"Message: {item}");
                 }
             }
         }
